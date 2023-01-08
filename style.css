@@ -8,7 +8,7 @@
 
 body{
     scrollbar-width: 0px;
-    background-image: url(/04_Clock/images/background.webp);
+    background-image: url(/Clock/images/background.webp);
     background-color: blue;
     background-position: center;
     background-size: cover;
