@@ -1,0 +1,38 @@
+/* Importing some font-family */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    scrollbar-width: 0px;
+    background-image: url(/04_Clock/images/background.webp);
+    background-color: blue;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#time{
+    font-family: 'Ubuntu', sans-serif; 
+    color: black;
+    box-sizing: border-box;
+}
+
+#date{
+    font-family: 'Ubuntu', sans-serif; 
+    color: black;
+    box-sizing: border-box;
+}
+.content{
+    justify-content: left;
+    height: 96.72vh;
+}
+.fs-c{
+    /* font-size: 5rem; */
+    font-size: 12vh;
+}
+.fs-c2{
+    font-size: 6vh;
+}
